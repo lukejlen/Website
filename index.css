@@ -1,3 +1,90 @@
-h1{
-background-color: green
+#name{
+background-color: purple;
+  box-shadow: 0 -10px 15px 0 rgba(0,0,0,0.2);
+}
+  
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    min-height: 500px;
+    min-width:21.5%;
+    max-width:22%;
+    padding: 4px 4px;
+    margin: 10px;
+    background-color: white;
+}
+div.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 250px;
+    padding: 4px 4px;
+    margin: 10px;
+    background-color: yellow;
+}
+div.cat {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 250px;
+    padding: 4px 4px;
+    margin: 10px;
+    background-color: yellow;
+}
+#Container {
+    margin: 100px;
+    background-color:white;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: crimson;
+}
+li a {
+    background-color: crimson;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+    li a:hover {
+        background-color: #555;
+        cursor: pointer;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+
+  
+}
+#box1{
+    width: 250px;
+
+}
+div.box1{
+    max-width:250px;
+}
+
+body{
+
+    background-color:navy;
+}
+div.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(.75,1.5);
+    transition: all .5s ease-in-out;
+    background-color: crimson;
 }
