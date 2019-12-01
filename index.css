@@ -7,7 +7,7 @@ div.card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 1s;
     border-radius: 5px;
-
+display: inline;
     min-height: 500px;
     min-width:21.5%;
     max-width:22%;
@@ -46,9 +46,13 @@ h1 {
     text-align: center;
     font-size: 250%;
     color: white;
-
-  
 }
+h2 {
+    text-align: center;
+    font-size: 150%;
+    color: Black;
+}
+
 
 
 body{
